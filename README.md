@@ -25,7 +25,7 @@ A print to output method to view variable values at the user console.
 
 Ability to abstract data types using a record keyword
 	
-	- reccord Rectangle {
+	- record Rectangle {
 	-   Int x;
 	-   Int y;
 	-   Int w;
@@ -36,5 +36,6 @@ Ability to abstract data types using a record keyword
 # Garbage Collection
 	
 All local primitive types are allocated onto the stack. All global primitives and  global and local records are heap allocated. This heap allocation requres a memory manager. The implementation of a garbage collector is the basis for this management.
+
 
 
