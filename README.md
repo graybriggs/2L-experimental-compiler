@@ -4,7 +4,7 @@ An ongoing extension to the language and compiler presented in the respository "
 
 Lanaguage extensions
 
-A full static typing system
+A full static typing system with primitive types:
 
 	- Int an_int;
 	- Real a_real;
@@ -25,7 +25,7 @@ A print to output method to view variable values at the user console.
 
 Ability to abstract data types using a record keyword
 	
-	- rectord Rectangle {
+	- reccord Rectangle {
 	-   Int x;
 	-   Int y;
 	-   Int w;
@@ -36,4 +36,5 @@ Ability to abstract data types using a record keyword
 # Garbage Collection
 	
 All local primitive types are allocated onto the stack. All global primitives and  global and local records are heap allocated. This heap allocation requres a memory manager. The implementation of a garbage collector is the basis for this management.
+
 
